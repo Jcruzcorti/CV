@@ -1,0 +1,73 @@
+@charset "UTF-8";
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0; }
+
+.body {
+  background-color: #ece3b0e1; }
+
+.header__divheader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .header__divheader .header__divheader--nombre {
+    font-size: 50px; }
+  .header__divheader .header__divheader--profesión {
+    font-size: 40px; }
+  .header__divheader .header__divheader--imgfoto {
+    width: 500px;
+    height: 450px; }
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around; }
+  .article .article__bienvenida {
+    font-size: 80px; }
+
+.article__img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .article__img .article__img--article {
+    width: 200px;
+    height: 200px; }
+
+.footer {
+  background-color: #ebdd8ee1;
+  margin-top: 100px; }
+
+.divfooter {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .divfooter .divfooter__fotos--footer {
+    width: 60px;
+    height: 55px;
+    padding-left: 30px;
+    padding-right: 10px;
+    opacity: 80%; }
+  .divfooter .divfooter__texto--footer {
+    font-size: 30px;
+    font-weight: 200; }
+
+/* Inicio de grid */
+#grilla {
+  display: grid;
+  grid-template-columns: 200px,1fr,1fr;
+  grid-template-rows: 500px,1fr;
+  grid-template-areas: "header section section" "header section section" "footer footer footer"; }
+  #grilla .header {
+    grid-area: header; }
+  #grilla .section {
+    grid-area: section; }
+  #grilla .footer {
+    grid-area: footer; }
