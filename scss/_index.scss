@@ -1,7 +1,7 @@
 // Inicio del index
 .body{
 
-   background-color: #ece3b0e1;
+   background-color: #fdf5c8f5;
 
 }
 
@@ -10,15 +10,16 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
-        .header__divheader--nombre{
-            font-size: 50px;
-        }
-        .header__divheader--profesión{
-            font-size: 40px;
-        }
+    justify-content: space-between;
+    align-items: center;
         .header__divheader--imgfoto{
             @include tamaño(500px,450px);
+        }
+        .header__divheader--nombre{
+            font-size: 30px;
+        }
+        .header__divheader--profesión{
+            font-size: 20px;
         }
 
 }
@@ -30,36 +31,49 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-        .article__bienvenida{
-            font-size: 80px;
+    align-content: flex-start;
+    .article__bienvenida{
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 50px;
         }
-       
-}
-
-.article__img{
-
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
+    .article__img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
         .article__img--article{
-            @include tamaño (200px,200px);
+             @include tamaño (200px,200px);
         }
+        }
+    .article__info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        .article__info--p{
+            font-size: 20px;
+        }  
+
+    }
 
 }
+
+
 
 .footer{
 
-    background-color: #ebdd8ee1;
-    margin-top: 100px;
+    background-color: #e1ce93;
+    margin-top: 150px;
     
   
 }
 
 .divfooter{
 
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -69,12 +83,11 @@
             @include tamaño(60px,55px);
             padding-left: 30px;
             padding-right: 10px;
-            opacity: 80%;
+            
         }
 
         .divfooter__texto--footer{
-            font-size: 30px;
-            font-weight:200;
+            font-size: 25px;
         }
 
 }

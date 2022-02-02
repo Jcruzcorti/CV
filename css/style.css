@@ -1,49 +1,60 @@
 @charset "UTF-8";
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Shippori Antique', sans-serif;
   margin: 0;
   padding: 0; }
 
 .body {
-  background-color: #ece3b0e1; }
+  background-color: #fdf5c8f5; }
 
 .header__divheader {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-evenly; }
-  .header__divheader .header__divheader--nombre {
-    font-size: 50px; }
-  .header__divheader .header__divheader--profesión {
-    font-size: 40px; }
+  justify-content: space-between;
+  align-items: center; }
   .header__divheader .header__divheader--imgfoto {
     width: 500px;
     height: 450px; }
+  .header__divheader .header__divheader--nombre {
+    font-size: 30px; }
+  .header__divheader .header__divheader--profesión {
+    font-size: 20px; }
 
 .article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  align-content: flex-start; }
   .article .article__bienvenida {
-    font-size: 80px; }
-
-.article__img {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly; }
-  .article__img .article__img--article {
-    width: 200px;
-    height: 200px; }
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 50px; }
+  .article .article__img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+    .article .article__img .article__img--article {
+      width: 200px;
+      height: 200px; }
+  .article .article__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+    .article .article__info .article__info--p {
+      font-size: 20px; }
 
 .footer {
-  background-color: #ebdd8ee1;
-  margin-top: 100px; }
+  background-color: #e1ce93;
+  margin-top: 150px; }
 
 .divfooter {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -53,11 +64,9 @@
     width: 60px;
     height: 55px;
     padding-left: 30px;
-    padding-right: 10px;
-    opacity: 80%; }
+    padding-right: 10px; }
   .divfooter .divfooter__texto--footer {
-    font-size: 30px;
-    font-weight: 200; }
+    font-size: 25px; }
 
 /* Inicio de grid */
 #grilla {
