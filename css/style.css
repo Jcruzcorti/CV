@@ -46,7 +46,8 @@
     flex-direction: row;
     justify-content: center; }
     .article .article__info .article__info--p {
-      font-size: 20px; }
+      font-size: 20px;
+      text-decoration: underline 3px #000000; }
 
 .footer {
   background-color: #e1ce93;
@@ -68,11 +69,8 @@
   .divfooter .divfooter__texto--footer {
     font-size: 25px; }
 
-/* Inicio de grid */
 #grilla {
   display: grid;
-  grid-template-columns: 200px,1fr,1fr;
-  grid-template-rows: 500px,1fr;
   grid-template-areas: "header section section" "header section section" "footer footer footer"; }
   #grilla .header {
     grid-area: header; }
@@ -80,3 +78,65 @@
     grid-area: section; }
   #grilla .footer {
     grid-area: footer; }
+
+@media screen and (max-width: 768px) {
+  .body {
+    background-color: #fdf5c8f5; }
+  .header__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left; }
+    .header__divheader .header__divheader--imgfoto {
+      width: 250px;
+      height: 200px; }
+    .header__divheader .header__divheader--nombre {
+      font-size: 20px; }
+    .header__divheader .header__divheader--profesión {
+      font-size: 10px; }
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-content: flex-start; }
+    .article .article__bienvenida {
+      font-size: 20px; }
+    .article .article__img {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center; }
+      .article .article__img .article__img--article {
+        width: 100px;
+        height: 100px; }
+    .article .article__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center; }
+      .article .article__info .article__info--p {
+        font-size: 10px;
+        text-decoration: underline 2px #000000; }
+  .footer {
+    background-color: #e1ce93; }
+  .divfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start; }
+    .divfooter .divfooter__fotos--footer {
+      width: 30px;
+      height: 25px; }
+    .divfooter .divfooter__texto--footer {
+      font-size: 15px; }
+  #grilla {
+    display: grid;
+    grid-template-areas: "header header header" "section section section" "footer footer footer"; }
+    #grilla .header {
+      grid-area: header; }
+    #grilla .section {
+      grid-area: section; }
+    #grilla .footer {
+      grid-area: footer; } }
