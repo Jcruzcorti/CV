@@ -93,11 +93,11 @@
   .header__divheader {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: left; }
+    flex-direction: column;
+    align-content: flex-start; }
     .header__divheader .header__divheader--imgfoto {
-      width: 150px;
-      height: 190px;
+      width: 170px;
+      height: 210px;
       margin-left: 20px; }
     .header__divheader .header__divheader--nombre {
       font-size: 18px;
@@ -108,7 +108,7 @@
   .article {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
     .article .article__bienvenida {
@@ -127,7 +127,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: flex-start; }
       .article .article__info .article__info--p {
         font-size: 15px;
         text-decoration: underline 2px #000000; }

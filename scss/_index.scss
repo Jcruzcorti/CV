@@ -6,7 +6,7 @@
 }
 
 .header__divheader{
-
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -143,10 +143,10 @@
 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
-        align-items: left;
+        flex-direction: column;
+        align-content: flex-start;
             .header__divheader--imgfoto{
-                @include tamaño(150px,190px);
+                @include tamaño(170px,210px);
                 margin-left: 20px;
             }
             .header__divheader--nombre{
@@ -164,7 +164,7 @@
 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         .article__bienvenida{
@@ -185,7 +185,7 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             .article__info--p{
                 font-size: 15px;
                 text-decoration: underline 2px #000000;
