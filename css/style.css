@@ -86,45 +86,53 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: left; }
+    align-content: flex-start; }
     .header__divheader .header__divheader--imgfoto {
-      width: 250px;
-      height: 200px; }
+      width: 200px;
+      height: 200px;
+      margin-left: 20px; }
     .header__divheader .header__divheader--nombre {
-      font-size: 20px; }
+      font-size: 18px;
+      margin-left: 20px; }
     .header__divheader .header__divheader--profesión {
-      font-size: 10px; }
+      font-size: 14px;
+      margin-left: 20px; }
   .article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
-    align-content: flex-start; }
+    justify-content: center;
+    align-items: center; }
     .article .article__bienvenida {
-      font-size: 20px; }
+      font-size: 25px;
+      text-align: center;
+      margin: 45px 20px 45px 20px; }
     .article .article__img {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       justify-content: center; }
       .article .article__img .article__img--article {
-        width: 100px;
-        height: 100px; }
+        width: 80px;
+        height: 80px; }
     .article .article__info {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       justify-content: center; }
       .article .article__info .article__info--p {
-        font-size: 10px;
+        font-size: 15px;
         text-decoration: underline 2px #000000; }
   .footer {
-    background-color: #e1ce93; }
+    background-color: #e1ce93;
+    margin-top: 80px; }
   .divfooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start; }
     .divfooter .divfooter__fotos--footer {
       width: 30px;

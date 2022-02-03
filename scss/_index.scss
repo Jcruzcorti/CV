@@ -135,15 +135,20 @@
         flex-wrap: wrap;
         flex-direction: column;
         // justify-content: space-between;
-        align-items: left;
+        align-content: flex-start;
+
+      
             .header__divheader--imgfoto{
-                @include tamaño(250px,200px);
+                @include tamaño(200px,200px);
+                margin-left: 20px;
             }
             .header__divheader--nombre{
-                font-size: 20px;
+                font-size: 18px;
+                margin-left: 20px;
             }
             .header__divheader--profesión{
-                font-size: 10px;
+                font-size: 14px;
+                margin-left: 20px;
             }
     
     }
@@ -153,13 +158,12 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: left;
-        align-content: flex-start;
+        justify-content: center;
+        align-items: center;
         .article__bienvenida{
-            font-size: 20px;
-            // margin-top: 50px;
-            // margin-bottom: 80px;
-            // margin-left: 50px;
+            font-size: 25px;
+            text-align: center;
+            margin: 45px 20px 45px 20px;
             }
         .article__img{
             display: flex;
@@ -167,7 +171,7 @@
             flex-direction: row;
             justify-content: center;
             .article__img--article{
-                 @include tamaño (100px,100px);
+                 @include tamaño (80px,80px);
             }
             }
         .article__info{
@@ -176,7 +180,7 @@
             flex-direction: column;
             justify-content: center;
             .article__info--p{
-                font-size: 10px;
+                font-size: 15px;
                 text-decoration: underline 2px #000000;
             }  
     
@@ -188,25 +192,22 @@
     .footer{
 
         background-color: #e1ce93;
-        // margin-top: 150px;
+        margin-top: 80px;
         
       
     }
     
     .divfooter{
     
-        // padding-top: 50px;
-        // padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: left;  
+        justify-content: center;  
         align-items: flex-start;        
             .divfooter__fotos--footer{
-                @include tamaño(30px,25px);
-                // padding-left: 30px;
-                // padding-right: 10px;
-                
+                @include tamaño(30px,25px);           
             }
     
             .divfooter__texto--footer{
@@ -220,8 +221,6 @@
 #grilla{
 
     display: grid;
-    // grid-template-columns: 1fr,1fr;
-    // grid-template-rows: 1fr, 1fr;
     grid-template-areas: 
     "header header header"
     "section section section"
