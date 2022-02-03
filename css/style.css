@@ -14,8 +14,10 @@
   justify-content: space-between;
   align-items: center; }
   .header__divheader .header__divheader--imgfoto {
-    width: 500px;
-    height: 450px; }
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 20px; }
   .header__divheader .header__divheader--nombre {
     font-size: 30px; }
   .header__divheader .header__divheader--profesión {
@@ -29,8 +31,8 @@
   align-content: flex-start; }
   .article .article__bienvenida {
     font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-bottom: 120px;
     margin-left: 50px; }
   .article .article__img {
     display: flex;
@@ -91,11 +93,11 @@
   .header__divheader {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-start; }
+    flex-direction: row;
+    align-items: left; }
     .header__divheader .header__divheader--imgfoto {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 190px;
       margin-left: 20px; }
     .header__divheader .header__divheader--nombre {
       font-size: 18px;

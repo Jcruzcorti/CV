@@ -13,7 +13,9 @@
     justify-content: space-between;
     align-items: center;
         .header__divheader--imgfoto{
-            @include tamaño(500px,450px);
+            @include tamaño(380px,450px);
+            border-radius: 5px;
+            margin:20px;
         }
         .header__divheader--nombre{
             font-size: 30px;
@@ -34,8 +36,8 @@
     align-content: flex-start;
     .article__bienvenida{
         font-size: 50px;
-        margin-top: 50px;
-        margin-bottom: 80px;
+        margin-top: 30px;
+        margin-bottom: 120px;
         margin-left: 50px;
         }
     .article__img{
@@ -111,8 +113,6 @@
 #grilla{
 
     display: grid;
-    // grid-template-columns: 200px,1fr,1fr;
-    // grid-template-rows: 500px,1fr;
     grid-template-areas: 
     "header section section"
     "header section section"
@@ -143,13 +143,10 @@
 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        // justify-content: space-between;
-        align-content: flex-start;
-
-      
+        flex-direction: row;
+        align-items: left;
             .header__divheader--imgfoto{
-                @include tamaño(200px,200px);
+                @include tamaño(150px,190px);
                 margin-left: 20px;
             }
             .header__divheader--nombre{
