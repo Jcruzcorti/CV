@@ -32,8 +32,7 @@
   .article .article__bienvenida {
     font-size: 50px;
     margin-top: 30px;
-    margin-bottom: 120px;
-    margin-left: 50px; }
+    margin-bottom: 120px; }
   .article .article__img {
     display: flex;
     flex-wrap: wrap;
@@ -153,6 +152,134 @@
         height: 25px;
         padding-right: 5px;
         padding-left: 5px; }
+      .divfooter .divfooter1 .divfooter__texto--footer {
+        font-size: 15px; }
+  #grilla {
+    display: grid;
+    grid-template-areas: "header header header" "section section section" "footer footer footer"; }
+    #grilla .header {
+      grid-area: header; }
+    #grilla .section {
+      grid-area: section; }
+    #grilla .footer {
+      grid-area: footer; } }
+
+.header2__divheader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 58px; }
+  .header2__divheader .header2__divheader--imgfoto {
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 20px; }
+  .header2__divheader .header2__divheader--nombre {
+    font-size: 30px; }
+  .header2__divheader .header2__divheader--profesión {
+    font-size: 20px; }
+
+.article2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start; }
+  .article2 .article2__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: flex-end; }
+    .article2 .article2__img .article2__img--article {
+      width: 160px;
+      height: 140px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  .article2 .article2__ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center; }
+    .article2 .article2__ul .article2__ul--li {
+      font-size: 30px;
+      padding: 10px; }
+    .article2 .article2__ul .article2__ul--h3 {
+      text-decoration: underline; }
+
+#grilla {
+  display: grid;
+  grid-template-areas: "header section section" "header section section" "footer footer footer"; }
+  #grilla .header {
+    grid-area: header; }
+  #grilla .section {
+    grid-area: section; }
+  #grilla .footer {
+    grid-area: footer; }
+
+@media screen and (max-width: 768px) {
+  .body {
+    background-color: #fdf5c8f5; }
+  .header2__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start; }
+    .header2__divheader .header2__divheader--imgfoto {
+      width: 170px;
+      height: 210px; }
+    .header2__divheader .header2__divheader--nombre {
+      font-size: 18px; }
+    .header2__divheader .header2__divheader--profesión {
+      font-size: 14px; }
+  .article2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .article2 .article2__img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      align-content: flex-end; }
+    .article2 .article__img {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center; }
+      .article2 .article__img .article2__img--article {
+        width: 80px;
+        height: 80px;
+        margin: 0; }
+    .article2 .article2__ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: flex-start; }
+      .article2 .article2__ul .article2__ul--li {
+        font-size: 15px; }
+      .article2 .article2__ul .article2__ul--h3 {
+        text-decoration: underline; }
+  .footer {
+    background-color: #e1ce93; }
+  .divfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; }
+    .divfooter .divfooter1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+      .divfooter .divfooter1 .divfooter__fotos--footer {
+        width: 30px;
+        height: 25px; }
       .divfooter .divfooter1 .divfooter__texto--footer {
         font-size: 15px; }
   #grilla {

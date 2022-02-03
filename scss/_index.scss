@@ -1,9 +1,5 @@
 // Inicio del index en versión desktop
-.body{
 
-   background-color: #fdf5c8f5;
-
-}
 
 .header__divheader{
     
@@ -38,7 +34,7 @@
         font-size: 50px;
         margin-top: 30px;
         margin-bottom: 120px;
-        margin-left: 50px;
+        // margin-left: 50px;
         }
     .article__img{
         display: flex;
@@ -46,7 +42,7 @@
         flex-direction: row;
         justify-content: center;
         .article__img--article{
-             @include tamaño (200px,200px);
+            @include tamaño (200px,200px);
         }
         }
     .article__info{

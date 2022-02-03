@@ -1,1 +1,223 @@
-// Inicio del cv
+// Inicio del cv en versión desktop
+
+.header2__divheader{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 58px;
+        .header2__divheader--imgfoto{
+            @include tamaño(380px,450px);
+            border-radius: 5px;
+            margin:20px;
+        }
+        .header2__divheader--nombre{
+            font-size: 30px;          
+        }
+        .header2__divheader--profesión{
+            font-size: 20px;        
+        }
+
+}
+
+.article2{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+        .article2__img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            align-content: flex-end;
+            .article2__img--article{
+                @include tamaño (160px,140px);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .article2__ul{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-around; 
+            align-content: center;
+            .article2__ul--li{
+                font-size: 30px;
+                padding: 10px;
+            }
+            .article2__ul--h3{
+                text-decoration: underline;
+            }
+        }
+
+
+
+}
+
+
+//  Inicio de grid en versión desktop
+
+#grilla{
+
+    display: grid;
+    grid-template-areas: 
+    "header section section"
+    "header section section"
+    "footer footer footer";
+    .header{
+        grid-area: header;
+      }
+    .section{
+        grid-area: section;
+      }
+    .footer{
+        grid-area:footer;
+      } 
+    
+}
+
+// Inicio del cv en versión mobile
+
+
+@media screen and (max-width:768px) {
+
+    .body{
+        background-color: #fdf5c8f5;    
+     }
+
+     .header2__divheader{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+            .header2__divheader--imgfoto{
+                @include tamaño(170px,210px);
+                // margin-left: 20px;
+            }
+            .header2__divheader--nombre{
+                font-size: 18px;
+                // margin-left: 20px;
+            }
+            .header2__divheader--profesión{
+                font-size: 14px;
+                // margin-left: 20px;
+            }
+    
+    }
+
+    .article2{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .article2__img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            align-content: flex-end;
+            // font-size: 25px;
+            // text-align: center;
+            // margin: 45px 20px 45px 20px;
+            }
+        .article__img{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            .article2__img--article{
+                @include tamaño (80px,80px);
+                margin:0;
+            }
+            }
+        .article2__ul{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: flex-start;
+            .article2__ul--li{
+                font-size: 15px;
+            }  
+            .article2__ul--h3{
+                text-decoration: underline;
+            }
+        }
+    
+    }
+
+
+    .footer{
+
+        background-color: #e1ce93;
+        // margin-top: 80px;
+        
+      
+    }
+    
+    .divfooter{
+    
+        // padding-top: 30px; 
+        // padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;  
+        align-items: flex-start; 
+            .divfooter1{
+                
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;     
+                .divfooter__fotos--footer{
+                    @include tamaño(30px,25px);
+                    // padding-right: 5px;
+                    // padding-left: 5px;
+                    
+                }
+        
+                .divfooter__texto--footer{
+                    font-size: 15px;
+                    // padding-right: 5px;
+                }
+
+            }
+
+
+        
+    }
+
+    //Inicio de grid en versión mobile
+    #grilla{
+
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "section section section"
+        "footer footer footer";
+        .header{
+            grid-area: header;
+          }
+        .section{
+            grid-area: section;
+          }
+        .footer{
+            grid-area:footer;
+          } 
+        
+    }
+
+    
+
+
+
+}
+
