@@ -170,7 +170,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-right: 58px; }
+  margin-right: 130px; }
   .header2__divheader .header2__divheader--imgfoto {
     width: 380px;
     height: 450px;
@@ -197,27 +197,17 @@
       height: 140px;
       margin-top: 20px;
       margin-bottom: 20px; }
-  .article2 .article2__ul {
+  .article2 .article2__info {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: center; }
-    .article2 .article2__ul .article2__ul--li {
-      font-size: 30px;
+    justify-content: center; }
+    .article2 .article2__info .article2__info--p {
+      font-size: 25px;
       padding: 10px; }
-    .article2 .article2__ul .article2__ul--h3 {
-      text-decoration: underline; }
-
-#grilla {
-  display: grid;
-  grid-template-areas: "header section section" "header section section" "footer footer footer"; }
-  #grilla .header {
-    grid-area: header; }
-  #grilla .section {
-    grid-area: section; }
-  #grilla .footer {
-    grid-area: footer; }
+    .article2 .article2__info .article2__info--h3 {
+      text-decoration: underline;
+      font-size: 35px; }
 
 @media screen and (max-width: 768px) {
   .body {
@@ -226,46 +216,50 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: flex-start; }
+    align-content: flex-start;
+    margin-right: 0; }
     .header2__divheader .header2__divheader--imgfoto {
       width: 170px;
-      height: 210px; }
+      height: 210px;
+      margin-left: 20px; }
     .header2__divheader .header2__divheader--nombre {
-      font-size: 18px; }
-    .header2__divheader .header2__divheader--profesión {
       font-size: 14px; }
+    .header2__divheader .header2__divheader--profesión {
+      font-size: 10px; }
   .article2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
+    margin-right: 10px; }
     .article2 .article2__img {
       display: flex;
       flex-wrap: wrap;
       justify-content: right;
       align-content: flex-end; }
-    .article2 .article__img {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center; }
-      .article2 .article__img .article2__img--article {
+      .article2 .article2__img .article2__img--article {
         width: 80px;
         height: 80px;
         margin: 0; }
-    .article2 .article2__ul {
+    .article2 .article2__info {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       justify-content: flex-start; }
-      .article2 .article2__ul .article2__ul--li {
-        font-size: 15px; }
-      .article2 .article2__ul .article2__ul--h3 {
-        text-decoration: underline; }
+      .article2 .article2__info .article2__info--p {
+        font-size: 10px;
+        padding: 0; }
+      .article2 .article2__info .article2__info--h3 {
+        text-decoration: underline;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px; }
   .footer {
-    background-color: #e1ce93; }
+    background-color: #e1ce93;
+    margin-top: 80px; }
   .divfooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -279,15 +273,9 @@
       align-items: center; }
       .divfooter .divfooter1 .divfooter__fotos--footer {
         width: 30px;
-        height: 25px; }
+        height: 25px;
+        padding-right: 5px;
+        padding-left: 5px; }
       .divfooter .divfooter1 .divfooter__texto--footer {
-        font-size: 15px; }
-  #grilla {
-    display: grid;
-    grid-template-areas: "header header header" "section section section" "footer footer footer"; }
-    #grilla .header {
-      grid-area: header; }
-    #grilla .section {
-      grid-area: section; }
-    #grilla .footer {
-      grid-area: footer; } }
+        font-size: 15px;
+        padding-right: 5px; } }

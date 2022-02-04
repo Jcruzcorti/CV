@@ -1,5 +1,6 @@
 // Inicio del cv en versión desktop
 
+
 .header2__divheader{
     
     display: flex;
@@ -7,11 +8,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-right: 58px;
+    margin-right: 130px;
         .header2__divheader--imgfoto{
             @include tamaño(380px,450px);
             border-radius: 5px;
             margin:20px;
+        
         }
         .header2__divheader--nombre{
             font-size: 30px;          
@@ -40,18 +42,19 @@
                 margin-bottom: 20px;
             }
         }
-        .article2__ul{
+        .article2__info{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-            justify-content: space-around; 
-            align-content: center;
-            .article2__ul--li{
-                font-size: 30px;
+            justify-content: center; 
+            // align-content: center;
+            .article2__info--p{
+                font-size: 25px;
                 padding: 10px;
             }
-            .article2__ul--h3{
+            .article2__info--h3{
                 text-decoration: underline;
+                font-size: 35px;
             }
         }
 
@@ -60,26 +63,8 @@
 }
 
 
-//  Inicio de grid en versión desktop
 
-#grilla{
 
-    display: grid;
-    grid-template-areas: 
-    "header section section"
-    "header section section"
-    "footer footer footer";
-    .header{
-        grid-area: header;
-      }
-    .section{
-        grid-area: section;
-      }
-    .footer{
-        grid-area:footer;
-      } 
-    
-}
 
 // Inicio del cv en versión mobile
 
@@ -87,7 +72,9 @@
 @media screen and (max-width:768px) {
 
     .body{
-        background-color: #fdf5c8f5;    
+        background-color: #fdf5c8f5;   
+        // padding: 20px;
+        
      }
 
      .header2__divheader{
@@ -96,16 +83,17 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-content: flex-start;
+        margin-right: 0;
             .header2__divheader--imgfoto{
                 @include tamaño(170px,210px);
-                // margin-left: 20px;
+                margin-left: 20px;
             }
             .header2__divheader--nombre{
-                font-size: 18px;
+                font-size: 14px;
                 // margin-left: 20px;
             }
             .header2__divheader--profesión{
-                font-size: 14px;
+                font-size: 10px;
                 // margin-left: 20px;
             }
     
@@ -116,37 +104,34 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: center;  
+        margin-right: 10px;    
         .article2__img{
             display: flex;
             flex-wrap: wrap;
             justify-content: right;
             align-content: flex-end;
-            // font-size: 25px;
-            // text-align: center;
-            // margin: 45px 20px 45px 20px;
-            }
-        .article__img{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            justify-content: center;
+  
             .article2__img--article{
                 @include tamaño (80px,80px);
                 margin:0;
             }
-            }
-        .article2__ul{
+        }
+        .article2__info{
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: flex-start;
-            .article2__ul--li{
-                font-size: 15px;
+            
+            .article2__info--p{
+                font-size: 10px;
+                padding: 0;
             }  
-            .article2__ul--h3{
+            .article2__info--h3{
                 text-decoration: underline;
+                font-size: 15px;
+                margin-top: 10px;
+                margin-bottom: 5px;
             }
         }
     
@@ -156,15 +141,15 @@
     .footer{
 
         background-color: #e1ce93;
-        // margin-top: 80px;
+        margin-top: 80px;
         
       
     }
     
     .divfooter{
     
-        // padding-top: 30px; 
-        // padding-bottom: 30px;
+        padding-top: 30px; 
+        padding-bottom: 30px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -179,14 +164,14 @@
                 align-items: center;     
                 .divfooter__fotos--footer{
                     @include tamaño(30px,25px);
-                    // padding-right: 5px;
-                    // padding-left: 5px;
+                    padding-right: 5px;
+                    padding-left: 5px;
                     
                 }
         
                 .divfooter__texto--footer{
                     font-size: 15px;
-                    // padding-right: 5px;
+                    padding-right: 5px;
                 }
 
             }
@@ -194,30 +179,5 @@
 
         
     }
-
-    //Inicio de grid en versión mobile
-    #grilla{
-
-        display: grid;
-        grid-template-areas: 
-        "header header header"
-        "section section section"
-        "footer footer footer";
-        .header{
-            grid-area: header;
-          }
-        .section{
-            grid-area: section;
-          }
-        .footer{
-            grid-area:footer;
-          } 
-        
-    }
-
-    
-
-
-
 }
 
