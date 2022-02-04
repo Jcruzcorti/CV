@@ -64,8 +64,6 @@
 
 
 
-
-
 // Inicio del cv en versión mobile
 
 
@@ -83,18 +81,18 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-content: flex-start;
-        margin-right: 0;
+        // margin-right: 0;
             .header2__divheader--imgfoto{
                 @include tamaño(170px,210px);
                 margin-left: 20px;
             }
             .header2__divheader--nombre{
-                font-size: 14px;
-                // margin-left: 20px;
+                font-size: 18px;
+                margin-left: 20px;
             }
             .header2__divheader--profesión{
-                font-size: 10px;
-                // margin-left: 20px;
+                font-size: 14px;
+                margin-left: 20px;
             }
     
     }
@@ -104,17 +102,18 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;  
-        margin-right: 10px;    
+        justify-content: space-around; 
+        margin-right: 0;  
         .article2__img{
             display: flex;
             flex-wrap: wrap;
-            justify-content: right;
-            align-content: flex-end;
+            flex-direction: row;;
+            align-items: flex-end;
   
             .article2__img--article{
                 @include tamaño (80px,80px);
-                margin:0;
+                margin-top: 0;
+                margin-bottom: 8px;
             }
         }
         .article2__info{
@@ -122,16 +121,19 @@
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: flex-start;
+            align-content: center;
             
             .article2__info--p{
                 font-size: 10px;
-                padding: 0;
+                padding: 5px;
+                
             }  
             .article2__info--h3{
                 text-decoration: underline;
                 font-size: 15px;
-                margin-top: 10px;
-                margin-bottom: 5px;
+                margin: 5px;
+                // margin-top: 10px;
+                // margin-bottom: 5px;
             }
         }
     
@@ -179,5 +181,7 @@
 
         
     }
+
+     
 }
 
