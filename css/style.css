@@ -202,7 +202,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center; }
-    .article2 .article2__info .article2__info--h3 {
+    .article2 .article2__info .article2__info--p {
+      font-weight: bold;
       font-size: 35px;
       padding: 10px 0px 5px 0px; }
     .article2 .article2__info .article2__info--ul {
@@ -256,12 +257,13 @@
       justify-content: center;
       align-content: flex-start;
       padding: 10px; }
-      .article2 .article2__info .article2__info--h3 {
-        font-size: 20px;
+      .article2 .article2__info .article2__info--p {
+        font-weight: bold;
+        font-size: 16px;
         margin-top: 10px;
         padding: 0; }
       .article2 .article2__info .article2__info--ul {
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 10px;
         padding: 10px; }
         .article2 .article2__info .article2__info--ul .article2__info--ul--li {
