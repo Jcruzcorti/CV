@@ -48,21 +48,43 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
-            justify-content: center; 
-            
+            justify-content: left;     
             .article3__info--p{
                 font-weight: bold;
                 font-size: 35px;
-                padding: 10px 0px 5px 0px;
-            }
+                padding: 10px 0px 5px 0px;             
+            } 
+            
+            a{
+                text-decoration: none;
+            }  
+            a:visited{
+                text-decoration: none;
+                color: inherit;
+                
+            } 
+                
             .article3__info--ul{
                 font-size: 25px;
                 padding-left: 0;
                 .article3__info--ul--li{
                     list-style-type:disc;
                 }
-
+            
             }
+
+            .imgconocimientos{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: flex-start; 
+                .imgconocimientos__img{
+                    width: 60px;
+                    height: 45px;                   
+                }
+            }
+
+
             
         }
 
@@ -134,10 +156,19 @@
         
                 .article3__info--p{
                     font-weight: bold;
+                    text-decoration-line: none;
                     font-size: 18px;
                     margin-top: 10px;
                     padding: 0;
                 }
+                a{
+                    text-decoration: none;
+                }  
+                a:visited{
+                    text-decoration: none;
+                    color: inherit;
+                    
+                } 
                 .article3__info--ul{
                     font-size: 14px;
                     margin-left: 10px;
@@ -148,7 +179,16 @@
                         
                 }  
                     
-                
+                .imgconocimientos{
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: row;
+                    justify-content: flex-start; 
+                    .imgconocimientos__img{
+                        width: 40px;
+                        height: 25px;                  
+                    }
+                }
             
             }
 

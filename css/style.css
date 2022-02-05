@@ -252,7 +252,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
-      justify-content: center;
+      justify-content: left;
       align-content: flex-start;
       padding: 10px; }
       .article2 .article2__info .article2__info--p {
@@ -327,16 +327,29 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: left; }
     .article3 .article3__info .article3__info--p {
       font-weight: bold;
       font-size: 35px;
       padding: 10px 0px 5px 0px; }
+    .article3 .article3__info a {
+      text-decoration: none; }
+    .article3 .article3__info a:visited {
+      text-decoration: none;
+      color: inherit; }
     .article3 .article3__info .article3__info--ul {
       font-size: 25px;
       padding-left: 0; }
       .article3 .article3__info .article3__info--ul .article3__info--ul--li {
         list-style-type: disc; }
+    .article3 .article3__info .imgconocimientos {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start; }
+      .article3 .article3__info .imgconocimientos .imgconocimientos__img {
+        width: 60px;
+        height: 45px; }
 
 @media screen and (max-width: 768px) {
   .body {
@@ -383,15 +396,172 @@
       padding: 10px; }
       .article3 .article3__info .article3__info--p {
         font-weight: bold;
+        text-decoration-line: none;
         font-size: 18px;
         margin-top: 10px;
         padding: 0; }
+      .article3 .article3__info a {
+        text-decoration: none; }
+      .article3 .article3__info a:visited {
+        text-decoration: none;
+        color: inherit; }
       .article3 .article3__info .article3__info--ul {
         font-size: 14px;
         margin-left: 10px;
         padding: 10px; }
         .article3 .article3__info .article3__info--ul .article3__info--ul--li {
           list-style-type: disc; }
+      .article3 .article3__info .imgconocimientos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start; }
+        .article3 .article3__info .imgconocimientos .imgconocimientos__img {
+          width: 40px;
+          height: 25px; }
+  .footer {
+    background-color: #e1ce93;
+    margin-top: 80px; }
+  .divfooter {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start; }
+    .divfooter .divfooter1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+      .divfooter .divfooter1 .divfooter__fotos--footer {
+        width: 30px;
+        height: 25px;
+        padding-right: 5px;
+        padding-left: 5px; }
+      .divfooter .divfooter1 .divfooter__texto--footer {
+        font-size: 15px;
+        padding-right: 5px; } }
+
+.header4__divheader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center; }
+  .header4__divheader .header4__divheader--imgfoto {
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 20px; }
+  .header4__divheader .header4__divheader--nombre {
+    font-size: 30px; }
+  .header4__divheader .header4__divheader--profesión {
+    font-size: 20px; }
+
+.article4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around; }
+  .article4 .article4__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right; }
+    .article4 .article4__img .article4__img--article {
+      width: 160px;
+      height: 140px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+  .article4 .article4__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left; }
+    .article4 .article4__info .article4__info--p {
+      font-weight: bold;
+      font-size: 35px;
+      padding: 10px 0px 5px 0px; }
+    .article4 .article4__info .article4__info--ul {
+      font-size: 25px;
+      padding-left: 0; }
+      .article4 .article4__info .article4__info--ul .article4__info--ul--li {
+        list-style-type: disc; }
+    .article4 .article4__info .imgconocimientos {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start; }
+      .article4 .article4__info .imgconocimientos .imgconocimientos__img {
+        width: 60px;
+        height: 45px; }
+
+@media screen and (max-width: 768px) {
+  .body {
+    background-color: #fdf5c8f5;
+    width: 100%; }
+  .header4__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: none; }
+    .header4__divheader .header4__divheader--imgfoto {
+      width: 170px;
+      height: 210px;
+      margin-left: 20px; }
+    .header4__divheader .header4__divheader--nombre {
+      font-size: 18px;
+      margin-left: 20px; }
+    .header4__divheader .header4__divheader--profesión {
+      font-size: 14px;
+      margin-left: 20px; }
+  .article4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .article4 .article4__img {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: right; }
+      .article4 .article4__img .article4__img--article {
+        width: 80px;
+        height: 80px;
+        margin-top: 0;
+        margin-bottom: 8px; }
+    .article4 .article4__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-content: flex-start;
+      padding: 10px; }
+      .article4 .article4__info .article4__info--p {
+        font-weight: bold;
+        text-decoration-line: none;
+        font-size: 18px;
+        margin-top: 10px;
+        padding: 0; }
+      .article4 .article4__info .article4__info--ul {
+        font-size: 14px;
+        margin-left: 10px;
+        padding: 10px; }
+        .article4 .article4__info .article4__info--ul .article4__info--ul--li {
+          list-style-type: disc; }
+      .article4 .article4__info .imgconocimientos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start; }
+        .article4 .article4__info .imgconocimientos .imgconocimientos__img {
+          width: 40px;
+          height: 25px; }
   .footer {
     background-color: #e1ce93;
     margin-top: 80px; }
