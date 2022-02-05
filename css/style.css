@@ -241,7 +241,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: right;
+      justify-content: end;
       align-content: flex-end; }
       .article2 .article2__img .article2__img--article {
         width: 80px;
@@ -381,7 +381,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: right; }
+      justify-content: end; }
       .article3 .article3__img .article3__img--article {
         width: 80px;
         height: 80px;
@@ -529,7 +529,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: right; }
+      justify-content: end; }
       .article4 .article4__img .article4__img--article {
         width: 80px;
         height: 80px;

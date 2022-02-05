@@ -117,7 +117,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
-                justify-content: right;
+                justify-content: end;
                 align-content: flex-end;
                 .article2__img--article{                        @include tamaño (80px,80px);
                     margin-top: 0;
