@@ -1,6 +1,5 @@
 // Compiladores
 
-
 @mixin tamaño ($ancho, $altura) {
     width: $ancho;
     height: $altura;
@@ -20,9 +19,6 @@
     background-color: #fdf5c8f5;
  
  }
-
-
-
 
 @import "index";
 @import "cv";

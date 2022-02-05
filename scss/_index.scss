@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    align-content: flex-start;
     align-items: center;
         .header__divheader--imgfoto{
             @include tamaño(380px,450px);

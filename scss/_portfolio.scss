@@ -1,1 +1,203 @@
-// Inicio del portfolio
+// Inicio del portfolio en versión desktop
+
+
+.header3__divheader{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    // margin-right: 300px;
+        .header3__divheader--imgfoto{
+            @include tamaño(380px,450px);
+            border-radius: 5px;
+            margin:20px;
+        
+        }
+        .header3__divheader--nombre{
+            font-size: 30px;          
+        }
+        .header3__divheader--profesión{
+            font-size: 20px;        
+        }
+
+}
+
+.article3{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    // align-content: flex-start;
+        .article3__img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            // align-content: flex-end;
+            // align-items: right;
+            .article3__img--article{
+                @include tamaño (160px,140px);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .article3__info{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center; 
+            
+            .article3__info--p{
+                font-weight: bold;
+                font-size: 35px;
+                padding: 10px 0px 5px 0px;
+            }
+            .article3__info--ul{
+                font-size: 25px;
+                padding-left: 0;
+                .article3__info--ul--li{
+                    list-style-type:disc;
+                }
+
+            }
+            
+        }
+
+
+
+}
+
+// Inicio del portfolio en versión mobile
+
+
+@media screen and (max-width:768px) {
+
+    .body{
+        background-color: #fdf5c8f5;   
+        width: 100%;      
+     }
+
+    .header3__divheader{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between ;
+        align-content: flex-start;
+        align-items: none;
+      
+        .header3__divheader--imgfoto{
+                @include tamaño(170px,210px);
+                margin-left: 20px;
+            }
+            .header3__divheader--nombre{
+                font-size: 18px;
+                margin-left: 20px;
+            }
+            .header3__divheader--profesión{
+                font-size: 14px;
+                margin-left: 20px;
+            }
+
+
+    }
+
+
+    .article3{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        .article3__img{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: right;
+                // align-content: flex-end;
+                .article3__img--article{                        @include tamaño (80px,80px);
+                    margin-top: 0;
+                    margin-bottom: 8px;
+                }
+            }
+            .article3__info{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-content: flex-start;
+                padding: 10px;
+        
+                .article3__info--p{
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-top: 10px;
+                    padding: 0;
+                }
+                .article3__info--ul{
+                    font-size: 14px;
+                    margin-left: 10px;
+                    padding: 10px;
+                    .article3__info--ul--li{
+                        list-style-type:disc;
+                    }
+                        
+                }  
+                    
+                
+            
+            }
+
+
+
+    }
+
+    .footer{
+
+        background-color: #e1ce93;
+        margin-top: 80px;
+        
+      
+    }
+    
+    .divfooter{
+    
+        padding-top: 30px; 
+        padding-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;  
+        align-items: flex-start; 
+            .divfooter1{
+                
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;     
+                .divfooter__fotos--footer{
+                    @include tamaño(30px,25px);
+                    padding-right: 5px;
+                    padding-left: 5px;
+                    
+                }
+        
+                .divfooter__texto--footer{
+                    font-size: 15px;
+                    padding-right: 5px;
+                }
+
+            }
+
+
+        
+    }
+
+     
+}
+
