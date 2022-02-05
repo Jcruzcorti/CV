@@ -77,6 +77,7 @@
     .body{
         background-color: #fdf5c8f5;   
         // padding: 20px;
+       
         
      }
 
@@ -86,7 +87,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         align-content: flex-start;
-        // margin-right: 0;
+        margin-right: 0;
             .header2__divheader--imgfoto{
                 @include tamaño(170px,210px);
                 margin-left: 20px;
@@ -108,13 +109,14 @@
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-around; 
+        // width: 80%;
+        
 
         .article2__img{
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
-            align-items: flex-end;
-  
+            align-content: flex-end;
             .article2__img--article{
                 @include tamaño (80px,80px);
                 margin-top: 0;

@@ -218,7 +218,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: flex-start; }
+    align-content: flex-start;
+    margin-right: 0; }
     .header2__divheader .header2__divheader--imgfoto {
       width: 170px;
       height: 210px;
@@ -238,7 +239,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      align-items: flex-end; }
+      align-content: flex-end; }
       .article2 .article2__img .article2__img--article {
         width: 80px;
         height: 80px;
