@@ -113,6 +113,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
+        a{
+            text-decoration: none;
+        }  
+        a:visited{
+            text-decoration: none;
+            color: inherit;
+            
+        } 
       
         .article2__img{
                 display: flex;
@@ -121,7 +129,8 @@
                 justify-content: end;
                 align-content: flex-end;
                 float: right;
-                .article2__img--article{                        @include tamaño (80px,80px);
+                .article2__img--article{                       
+                    @include tamaño (80px,80px);
                     margin-top: 0;
                     margin-bottom: 8px;
                 }

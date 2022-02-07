@@ -127,6 +127,14 @@
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: flex-start;
+        a{
+            text-decoration: none;
+        }  
+        a:visited{
+            text-decoration: none;
+            color: inherit;
+            
+        } 
         
         .article4__img{
                 display: flex;
