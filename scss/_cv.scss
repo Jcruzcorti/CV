@@ -113,12 +113,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-content: center;
+      
         .article2__img{
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: end;
                 align-content: flex-end;
+                float: right;
                 .article2__img--article{                        @include tamaño (80px,80px);
                     margin-top: 0;
                     margin-bottom: 8px;
@@ -137,11 +139,15 @@
                     font-size: 18px;
                     margin-top: 10px;
                     padding: 0;
+                  
                 }
+                
+
                 .article2__info--ul{
                     font-size: 14px;
                     margin-left: 10px;
                     padding: 10px;
+                  
                     .article2__info--ul--li{
                         list-style-type:disc;
                     }

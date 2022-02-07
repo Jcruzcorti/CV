@@ -30,14 +30,11 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    
-    // align-content: flex-start;
+    padding-left: 15px;
         .article4__img{
             display: flex;
             flex-wrap: wrap;
             justify-content: right;
-            // align-content: flex-end;
-            // align-items: right;
             .article4__img--article{
                 @include tamaño (160px,140px);
                 margin-top: 20px;
@@ -54,7 +51,10 @@
                 font-size: 35px;
                 padding: 10px 0px 5px 0px;             
             } 
-            
+
+            .article4__info--div{              
+                padding-right: 50px;
+            }
                 
             .article4__info--ul{
                 font-size: 25px;
@@ -133,6 +133,7 @@
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: end;
+                float: right;
                 // align-content: flex-end;
                 .article4__img--article{                        @include tamaño (80px,80px);
                     margin-top: 0;
@@ -154,7 +155,7 @@
                     margin-top: 10px;
                     padding: 0;
                 }
-    
+                
                 .article4__info--ul{
                     font-size: 14px;
                     margin-left: 10px;

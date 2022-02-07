@@ -19,6 +19,15 @@
     background-color: #fdf5c8f5;
  
  }
+
+ a{
+    text-decoration: none;
+}  
+a:visited{
+    text-decoration: none;
+    color: inherit;
+    
+} 
 @import "index";
 @import "cv";
 @import "portfolio";

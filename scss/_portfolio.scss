@@ -140,8 +140,10 @@
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: end;
+                float: right;
                 // align-content: flex-end;
-                .article3__img--article{                        @include tamaño (80px,80px);
+                .article3__img--article{                 
+                    @include tamaño (80px,80px);
                     margin-top: 0;
                     margin-bottom: 8px;
                 }
@@ -161,14 +163,7 @@
                     margin-top: 10px;
                     padding: 0;
                 }
-                a{
-                    text-decoration: none;
-                }  
-                a:visited{
-                    text-decoration: none;
-                    color: inherit;
-                    
-                } 
+            
                 .article3__info--ul{
                     font-size: 14px;
                     margin-left: 10px;
