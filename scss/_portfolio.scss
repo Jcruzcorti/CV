@@ -1,4 +1,4 @@
-// Inicio del portfolio en versión desktop
+/* Inicio de portfolio en versión desktop */
 
 
 .header3__divheader{
@@ -9,7 +9,6 @@
     justify-content: space-between;
     align-content: flex-start;
     align-items: center;
-    // margin-right: 300px;
         .header3__divheader--imgfoto{
             @include tamaño(380px,450px);
             border-radius: 5px;
@@ -31,13 +30,10 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    // align-content: flex-start;
         .article3__img{
             display: flex;
             flex-wrap: wrap;
             justify-content: right;
-            // align-content: flex-end;
-            // align-items: right;
             .article3__img--article{
                 @include tamaño (160px,140px);
                 margin-top: 20px;
@@ -92,7 +88,7 @@
 
 }
 
-// Inicio del portfolio en versión mobile
+/* Inicio de portfolio en versión mobile */
 
 
 @media screen and (max-width:768px) {
@@ -148,8 +144,6 @@
                 flex-wrap: wrap;
                 flex-direction: row;
                 justify-content: end;
-                float: right;
-                // align-content: flex-end;
                 .article3__img--article{                 
                     @include tamaño (80px,80px);
                     margin-top: 0;
@@ -194,8 +188,6 @@
                 }
             
             }
-
-
 
     }
 
@@ -244,3 +236,4 @@
      
 }
 
+/* Fin del portfolio */

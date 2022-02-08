@@ -20,6 +20,13 @@
  
  }
 
+@import "index";
+@import "cv";
+@import "portfolio";
+@import "sobremi";
+
+
+
 a{
     text-decoration: none;
 }  
@@ -28,7 +35,14 @@ a:visited{
     color: inherit;
     
 } 
-@import "index";
-@import "cv";
-@import "portfolio";
-@import "sobremi";
+
+@media screen and (max-width:768px){
+    a{
+        text-decoration: none;
+    }  
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+        
+    } 
+}

@@ -1,4 +1,4 @@
-// Inicio del sobre mi en versión desktop
+/* Inicio de sobre mi en versión desktop */
 
 
 .header4__divheader{
@@ -75,17 +75,13 @@
                     height: 45px;                   
                 }
             }
-
-
             
         }
-
-
 
 }
 
 
-// Inicio del sobre mi en versión mobile
+/* Inicio de sobre mi en versión mobile */
 
 
 @media screen and (max-width:768px) {
@@ -140,10 +136,9 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
-                justify-content: end;
-                float: right;
-                // align-content: flex-end;
-                .article4__img--article{                        @include tamaño (80px,80px);
+                justify-content: end;       
+                .article4__img--article{                     
+                    @include tamaño (80px,80px);
                     margin-top: 0;
                     margin-bottom: 8px;
                 }
@@ -235,3 +230,5 @@
 
      
 }
+
+/* Fin de sobre mi*/
