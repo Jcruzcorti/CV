@@ -11,13 +11,21 @@
     font-family: 'Shippori Antique', sans-serif;
     margin: 0;
     padding: 0;
+    a{
+        text-decoration: none;
+    }  
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+        
+    } 
     
 }
 
 .body{
 
     background-color: #fdf5c8f5;
- 
+
  }
 
 @import "index";
@@ -27,22 +35,5 @@
 
 
 
-a{
-    text-decoration: none;
-}  
-a:visited{
-    text-decoration: none;
-    color: inherit;
-    
-} 
 
-@media screen and (max-width:768px){
-    a{
-        text-decoration: none;
-    }  
-    a:visited{
-        text-decoration: none;
-        color: inherit;
-        
-    } 
-}
+
