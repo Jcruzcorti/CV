@@ -227,7 +227,8 @@ a:visited {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    align-content: flex-start; }
+    align-content: flex-start;
+    align-items: none; }
     .header2__divheader .header2__divheader--imgfoto {
       width: 170px;
       height: 210px;
@@ -243,7 +244,7 @@ a:visited {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-    align-content: center; }
+    align-content: right; }
     .article2 a {
       text-decoration: none; }
     .article2 a:visited {
@@ -255,7 +256,7 @@ a:visited {
       flex-direction: row;
       justify-content: end;
       align-content: flex-end;
-      float: right; }
+      margin-left: 20px; }
       .article2 .article2__img .article2__img--article {
         width: 80px;
         height: 80px;
