@@ -109,8 +109,8 @@
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: column;
-                justify-content: right;
-                align-content: flex-end;            
+                // justify-content: right;
+                align-items: flex-end;            
                 .article2__img--article{                       
                     @include tamaño (80px,80px);
                     margin-top: 0;

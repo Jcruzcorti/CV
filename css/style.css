@@ -244,9 +244,8 @@
     .article2 .article2__img {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: right;
-      align-content: flex-end; }
+      flex-direction: column;
+      align-items: flex-end; }
       .article2 .article2__img .article2__img--article {
         width: 80px;
         height: 80px;
