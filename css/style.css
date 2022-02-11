@@ -220,13 +220,11 @@
 /* Inicio de cv en versión mobile */
 @media screen and (max-width: 768px) {
   .body {
-    background-color: #fdf5c8f5;
-    width: 100%; }
+    background-color: #fdf5c8f5; }
   .header2__divheader {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
     align-content: flex-start; }
     .header2__divheader .header2__divheader--imgfoto {
       width: 170px;
@@ -242,13 +240,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;
-    align-content: right; }
+    justify-content: center; }
     .article2 .article2__img {
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
-      justify-content: end;
+      justify-content: right;
       align-content: flex-end; }
       .article2 .article2__img .article2__img--article {
         width: 80px;
@@ -363,8 +360,7 @@
 /* Inicio de portfolio en versión mobile */
 @media screen and (max-width: 768px) {
   .body {
-    background-color: #fdf5c8f5;
-    width: 100%; }
+    background-color: #fdf5c8f5; }
   .header3__divheader {
     display: flex;
     flex-wrap: wrap;
@@ -517,8 +513,7 @@
 /* Inicio de sobre mi en versión mobile */
 @media screen and (max-width: 768px) {
   .body {
-    background-color: #fdf5c8f5;
-    width: 100%; }
+    background-color: #fdf5c8f5; }
   .header4__divheader {
     display: flex;
     flex-wrap: wrap;

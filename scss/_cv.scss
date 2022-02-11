@@ -74,7 +74,6 @@
 
     .body{
         background-color: #fdf5c8f5;   
-        width: 100%;  
      }
 
     .header2__divheader{
@@ -82,7 +81,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-between ;
+        // justify-content: space-between ;
         align-content: flex-start;       
         .header2__divheader--imgfoto{
                 @include tamaño(170px,210px);
@@ -104,13 +103,13 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: flex-start;
-        align-content: right;    
+        justify-content: center;
+        // align-content: right;    
         .article2__img{
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
-                justify-content: end;
+                justify-content: right;
                 align-content: flex-end;            
                 .article2__img--article{                       
                     @include tamaño (80px,80px);
