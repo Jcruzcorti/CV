@@ -1,0 +1,628 @@
+  .body {
+    font-family: 'Shippori Antique', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5c8f5; }
+    a {
+      text-decoration: none; }
+    a:visited {
+      text-decoration: none;
+      color: inherit; }
+  
+  .header__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center; }
+    .header__divheader--imgfoto {
+      width: 320px;
+      height: 390px;
+      border-radius: 5px;
+      margin: 20px; }
+    .header__divheader--nombre {
+      font-size: 26px; 
+      margin: 0;}
+    .header__divheader--profesión {
+      font-size: 20px; 
+      margin: 0;}
+  
+  .article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start; }
+    .article__bienvenida {
+      font-size: 50px;
+      margin-top: 30px;
+      margin-bottom: 120px; }
+    .article__img {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center; }
+    .article__img--article {
+        width: 200px;
+        height: 200px; }
+    .article__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center; }
+    .article__info .article__info--p {
+        font-size: 20px;
+        text-decoration: underline 3px #000000; }
+  
+  .footer {
+    background-color: #e1ce93;
+    margin-top: 150px; }
+  
+  .divfooter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .divfooter1 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+    .divfooter__fotos--footer {
+        width: 60px;
+        height: 55px;
+        padding-left: 30px;
+        padding-right: 10px; }
+    .divfooter__texto--footer {
+        font-size: 25px; }
+  
+  #grilla {
+    display: grid;
+    grid-template-areas: 
+    "header section section"
+    "header section section"
+    "footer footer footer"; }
+    #grilla .header {
+      grid-area: header; }
+    #grilla .section {
+      grid-area: section; }
+    #grilla .footer {
+      grid-area: footer; }
+  
+  @media screen and (max-width: 768px) {
+    .body {
+      background-color: #fdf5c8f5; }
+    .header__divheader {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: flex-start; }
+    .header__divheader--imgfoto {
+        width: 170px;
+        height: 210px;
+        margin-left: 20px; }
+     .header__divheader--nombre {
+        font-size: 18px;
+        margin-left: 20px; }
+    .header__divheader--profesión {
+        font-size: 14px;
+        margin-left: 20px; }
+    .article {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .article__bienvenida {
+        font-size: 25px;
+        text-align: center;
+        margin: 45px 20px 45px 20px; }
+    .article__img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center; }
+    .article__img--article {
+          width: 80px;
+          height: 80px; }
+    .article__info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start; }
+    .article__info--p {
+          font-size: 15px;
+          text-decoration: underline 2px #000000; }
+    .footer {
+      background-color: #e1ce93;
+      margin-top: 80px; }
+    .divfooter {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start; }
+    .divfooter1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+    .divfooter__fotos--footer {
+          width: 30px;
+          height: 25px;
+          padding-right: 5px;
+          padding-left: 5px; }
+    .divfooter__texto--footer {
+          font-size: 15px; }
+    #grilla {
+      display: grid;
+      grid-template-areas: 
+    "header header header"
+    "section section section"
+    "footer footer footer"; }
+      #grilla .header {
+        grid-area: header; }
+      #grilla .section {
+        grid-area: section; }
+      #grilla .footer {
+        grid-area: footer; } }
+  
+  /* Inicio de cv en versión desktop */
+  .header2__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center; }
+    .header2__divheader--imgfoto {
+        width: 320px;
+        height: 390px;
+        border-radius: 5px;
+        margin: 20px; }
+    .header2__divheader--nombre {
+      font-size: 26px; 
+      margin: 0;}
+    .header2__divheader--profesión {
+      font-size: 20px;
+      margin: 0; }
+  
+  .article2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    } 
+    
+    .article2__img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right; }
+    .article2__img--article {
+        width: 160px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+    .article2__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center; }
+    .article2__info--p {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px 0px 5px 0px; }
+    .article2__info--ul {
+        font-size: 20px;
+        padding-left: 0; }
+    .article2__info--ul--li {
+          list-style-type: disc; }
+  
+  /* Inicio de cv en versión mobile */
+  @media screen and (max-width: 768px) {
+    .body {
+      background-color: #fdf5c8f5; }
+    .header2__divheader {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: flex-start; }
+    .header2__divheader--imgfoto {
+        width: 170px;
+        height: 210px;
+        margin-left: 20px; }
+    .header2__divheader--nombre {
+        font-size: 18px;
+        margin-left: 20px;
+        margin: 0; }
+    .header2__divheader--profesión {
+        font-size: 14px;
+        margin-left: 20px;
+        margin: 0; }
+    .article2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center; }
+    .article2__img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end; }
+    .article2__img--article {
+          width: 80px;
+          height: 80px;
+          margin-top: 0;
+          margin-bottom: 8px; }
+    .article2__info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: left;
+        align-content: flex-start;
+        padding: 10px; }
+    .article2__info--p {
+          font-weight: bold;
+          font-size: 18px;
+          margin-top: 10px;
+          padding: 0; }
+    .article2__info--ul {
+          font-size: 14px;
+          margin-left: 10px;
+          padding: 10px; }
+    .article2__info--ul--li {
+            list-style-type: disc; }
+    .footer {
+      background-color: #e1ce93;
+      margin-top: 80px; }
+    .divfooter {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start; }
+      .divfooter1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .divfooter__fotos--footer {
+          width: 30px;
+          height: 25px;
+          padding-right: 5px;
+          padding-left: 5px; }
+        .divfooter__texto--footer {
+          font-size: 15px;
+          padding-right: 5px;  } }
+  
+  /* Fin de cv */
+  /* Inicio de portfolio en versión desktop */
+  .header3__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center; }
+    .header3__divheader--imgfoto {
+      width: 320px;
+      height: 390px;
+      border-radius: 5px;
+      margin: 20px; }
+    .header3__divheader--nombre {
+      font-size: 26px;
+      margin: 0; }
+    .header3__divheader--profesión {
+      font-size: 20px; 
+      margin: 0;}
+  
+  .article3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around; }
+    .article3__img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right; }
+    .article3__img--article {
+        width: 160px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+    .article3__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: left; }
+      .article3__info--p {
+        font-weight: bold;
+        font-size: 30px;
+        padding: 10px 0px 5px 0px; }
+      .article3__info a {
+        text-decoration: none; }
+      .article3__info a:visited {
+        text-decoration: none;
+        color: inherit; }
+      .article3__info--ul {
+        font-size: 20px;
+        padding-left: 0; }
+        .article3__info--ul--li {
+          list-style-type: disc; }
+      .imgconocimientos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start; }
+        .imgconocimientos__img {
+          width: 60px;
+          height: 45px; }
+        .imgconocimientos2__img{
+          width: 48px;
+          height: 48px;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+  
+  /* Inicio de portfolio en versión mobile */
+  @media screen and (max-width: 768px) {
+    .body {
+      background-color: #fdf5c8f5; }
+    .header3__divheader {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: flex-start;
+      align-items: none; }
+      .header3__divheader--imgfoto {
+        width: 170px;
+        height: 210px;
+        margin-left: 20px; }
+      .header3__divheader--nombre {
+        font-size: 18px;
+        margin-left: 20px; }
+      .header3__divheader--profesión {
+        font-size: 14px;
+        margin-left: 20px; }
+    .article3 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: flex-start; }
+      .article3 a {
+        text-decoration: none; }
+      .article3 a:visited {
+        text-decoration: none;
+        color: inherit; }
+      .article3__img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: end; }
+        .article3__img--article {
+          width: 80px;
+          height: 80px;
+          margin-top: 0;
+          margin-bottom: 8px; }
+      .article3__info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        padding: 10px; }
+        .article3__info--p {
+          font-weight: bold;
+          text-decoration-line: none;
+          font-size: 18px;
+          margin-top: 10px;
+          padding: 0; }
+        .article3__info--ul {
+          font-size: 14px;
+          margin-left: 10px;
+          padding: 10px; }
+          .article3__info--ul--li {
+            list-style-type: disc; }
+         .imgconocimientos {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: flex-start; }
+         .imgconocimientos__img {
+            width: 40px;
+            height: 25px; }
+    .footer {
+      background-color: #e1ce93;
+      margin-top: 80px; }
+    .divfooter {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start; }
+      .divfooter1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .divfooter__fotos--footer {
+          width: 30px;
+          height: 25px;
+          padding-right: 5px;
+          padding-left: 5px; }
+        .divfooter__texto--footer {
+          font-size: 15px;
+          padding-right: 5px; } }
+  
+  /* Fin del portfolio */
+  /* Inicio de sobre mi en versión desktop */
+  .header4__divheader {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center; }
+    .header4__divheader--imgfoto {
+      width: 320px;
+      height: 390px;
+      border-radius: 5px;
+      margin: 20px; }
+    .header4__divheader--nombre {
+      font-size: 26px; 
+      margin: 0;}
+    .header4__divheader--profesión {
+      font-size: 20px;
+      margin: 0; }
+  
+  .article4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px; }
+    .article4__img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right; }
+      .article4__img--article {
+        width: 160px;
+        height: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+    .article4__info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: left; }
+      .article4__info--p {
+        font-weight: bold;
+        font-size: 35px;
+        padding: 10px 0px 5px 0px; }
+      .article4__info--div {
+        padding-right: 50px; }
+      .article4__info--ul {
+        font-size: 25px;
+        padding-left: 0; }
+        .article4__info--ul--li {
+          list-style-type: disc; }
+      .imgconocimientos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start; }
+        .imgconocimientos__img {
+          width: 60px;
+          height: 45px; }
+  
+  /* Inicio de sobre mi en versión mobile */
+  @media screen and (max-width: 768px) {
+    .body {
+      background-color: #fdf5c8f5; }
+    .header4__divheader {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-between;
+      align-content: flex-start;
+      align-items: none; }
+      .header4__divheader--imgfoto {
+        width: 170px;
+        height: 210px;
+        margin-left: 20px; }
+      .header4__divheader--nombre {
+        font-size: 18px;
+        margin-left: 20px; }
+      .header4__divheader--profesión {
+        font-size: 14px;
+        margin-left: 20px; }
+    .article4 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: flex-start; }
+      .article4 a {
+        text-decoration: none; }
+      .article4 a:visited {
+        text-decoration: none;
+        color: inherit; }
+      .article4__img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: end; }
+        .article4__img--article {
+          width: 80px;
+          height: 80px;
+          margin-top: 0;
+          margin-bottom: 8px; }
+      .article4__info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
+        padding: 10px; }
+        .article4__info--p {
+          font-weight: bold;
+          text-decoration-line: none;
+          font-size: 18px;
+          margin-top: 10px;
+          padding: 0; }
+        .article4__info--ul {
+          font-size: 14px;
+          margin-left: 10px;
+          padding: 10px; }
+          .article4__info--ul--li {
+            list-style-type: disc; }
+        .imgconocimientos {
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          justify-content: flex-start; }
+          .imgconocimientos__img {
+            width: 40px;
+            height: 25px; }
+    .footer {
+      background-color: #e1ce93;
+      margin-top: 80px; }
+    .divfooter {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start; }
+      .divfooter1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center; }
+        .divfooter__fotos--footer {
+          width: 30px;
+          height: 25px;
+          padding-right: 5px;
+          padding-left: 5px; }
+        .divfooter__texto--footer {
+          font-size: 15px;
+          padding-right: 5px; } }
+  
+  /* Fin de sobre mi*/
+  
