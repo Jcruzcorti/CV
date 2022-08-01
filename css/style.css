@@ -225,7 +225,10 @@
         padding-left: 0; }
     .article2__info--ul--li {
           list-style-type: disc; }
-  
+    a{
+      text-decoration: none;
+    }  
+
   /* Inicio de cv en versión mobile */
   @media screen and (max-width: 768px) {
     .body {
