@@ -19,8 +19,10 @@
     .header__divheader--imgfoto {
       width: 320px;
       height: 390px;
-      border-radius: 5px;
-      margin: 20px; }
+      border-radius: 3px;
+      margin: 20px;
+      box-shadow: 1px 1px 15px 2px #999;
+     }
     .header__divheader--nombre {
       font-size: 26px; 
       margin: 0;}
@@ -186,8 +188,10 @@
     .header2__divheader--imgfoto {
         width: 320px;
         height: 390px;
-        border-radius: 5px;
-        margin: 20px; }
+        border-radius: 3px;
+        margin: 20px;
+        box-shadow: 1px 1px 15px 2px #999;
+       }
     .header2__divheader--nombre {
       font-size: 26px; 
       margin: 0;}
@@ -321,8 +325,10 @@
     .header3__divheader--imgfoto {
       width: 320px;
       height: 390px;
-      border-radius: 5px;
-      margin: 20px; }
+      border-radius: 3px;
+      margin: 20px; 
+      box-shadow: 1px 1px 15px 2px #999;
+    }
     .header3__divheader--nombre {
       font-size: 26px;
       margin: 0; }
@@ -484,8 +490,10 @@
     .header4__divheader--imgfoto {
       width: 320px;
       height: 390px;
-      border-radius: 5px;
-      margin: 20px; }
+      border-radius: 3px;
+      margin: 20px;
+      box-shadow: 1px 1px 15px 2px #999;
+     }
     .header4__divheader--nombre {
       font-size: 26px; 
       margin: 0;}
