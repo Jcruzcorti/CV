@@ -237,10 +237,12 @@
     .article2__info--p {
         font-weight: bold;
         font-size: 30px;
-        padding: 10px 0px 5px 0px; }
+        padding: 10px 0px 5px 0px;
+       }
     .article2__info--ul {
         font-size: 20px;
-        padding-left: 0; }
+        
+      } 
     .article2__info--ul--li {
           list-style-type: disc; }
     a{
@@ -568,7 +570,7 @@
       .article4__info--div {
         padding-right: 50px; }
       .article4__info--ul {
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 0; }
         .article4__info--ul--li {
           list-style-type: disc; }
