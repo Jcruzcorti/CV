@@ -99,6 +99,11 @@
   @media screen and (max-width: 768px) {
     .body {
       background-color: #fdf5c8f5; }
+      a {
+        text-decoration: none; }
+      a:visited {
+        text-decoration: none;
+        color: inherit; }
     .header__divheader {
       display: flex;
       flex-wrap: wrap;
@@ -184,7 +189,16 @@
     flex-direction: column;
     justify-content: space-between;
     align-content: flex-start;
-    align-items: center; }
+    align-items: center;
+
+   }
+    a {
+      text-decoration: none;
+      color: #000000; }
+    a:visited {
+      text-decoration: none;
+      color: inherit; }
+
     .header2__divheader--imgfoto {
         width: 320px;
         height: 390px;
@@ -242,6 +256,11 @@
       flex-wrap: wrap;
       flex-direction: column;
       align-content: flex-start; }
+      a {
+        text-decoration: none; }
+      a:visited {
+        text-decoration: none;
+        color: inherit; }
     .header2__divheader--imgfoto {
         width: 170px;
         height: 210px;
@@ -322,6 +341,11 @@
     justify-content: space-between;
     align-content: flex-start;
     align-items: center; }
+    a {
+      text-decoration: none; }
+    a:visited {
+      text-decoration: none;
+      color: inherit; }
     .header3__divheader--imgfoto {
       width: 320px;
       height: 390px;
@@ -395,6 +419,11 @@
       justify-content: space-between;
       align-content: flex-start;
       align-items: none; }
+      a {
+        text-decoration: none; }
+      a:visited {
+        text-decoration: none;
+        color: inherit; }
       .header3__divheader--imgfoto {
         width: 170px;
         height: 210px;
@@ -452,6 +481,12 @@
          .imgconocimientos__img {
             width: 40px;
             height: 25px; }
+          .imgconocimientos2__img{
+            width: 28px;
+            height: 28px;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
     .footer {
       background-color: #e1ce93;
       margin-top: 80px; }
@@ -487,6 +522,11 @@
     justify-content: space-between;
     align-content: flex-start;
     align-items: center; }
+    a {
+      text-decoration: none; }
+    a:visited {
+      text-decoration: none;
+      color: inherit; }
     .header4__divheader--imgfoto {
       width: 320px;
       height: 390px;
@@ -545,6 +585,11 @@
   @media screen and (max-width: 768px) {
     .body {
       background-color: #fdf5c8f5; }
+      a {
+        text-decoration: none; }
+      a:visited {
+        text-decoration: none;
+        color: inherit; }
     .header4__divheader {
       display: flex;
       flex-wrap: wrap;
